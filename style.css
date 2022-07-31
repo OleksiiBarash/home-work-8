@@ -1,59 +1,42 @@
-.border {
+.block {
     border: 1px solid;
     color: black;
-    height: 250px;
-    margin-bottom: 5px;
+    margin: 5px;
 }
 
-.sun-one {
+.clearfixe {
+    clear: both;
+}
+
+.item {
+    margin: 5px;
     background-color: black;
     width: 100px;
     height: 100px;
+}
+
+.left {
     float: left;
 }
 
-.sun-two {
-    background-color: black;
-    width: 100px;
-    height: 100px;
+.right {
     float: right;
 }
 
-.moon-one {
-    background-color: black;
-    width: 100px;
-    height: 100px;
-    float: left;
-    vertical-align: middle;
+.item-height {
+    height: 205px;
 }
 
-.moon-two {
-    background-color: black;
-    width: 100px;
-    height: 100px;
-    float: right;
-    margin-right: 1px;
+.item-width {
+    width: 200px;
 }
 
-.star-one {
-    background-color: black;
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin-right: 1px;
+.box {
+    width: 420px;
 }
 
-.star-two {
-    background-color: black;
-    width: 100px;
-    height: 100px;
-    float: right;
-    margin-right: 1px;
+.middle {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.light-one {
-    color: black;
-    width: 100px;
-    height: 100px;
-    margin-right: 1px;
-}
